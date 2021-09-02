@@ -1,0 +1,12 @@
+{
+    "name": "koudai/blog",
+    "authors": [
+        {
+            "name": "koudai0024",
+            "email": "iwai.0731v@gmail.com"
+        }
+    ],
+    "require": {
+        "jenssegers/blade": "^1.4"
+    }
+}
