@@ -1,11 +1,49 @@
-/*!
-Theme Name: MyTheme
-Author: Masahiro Harada
-Description: My Theme
-*/
+@charset "UTF-8";
 
-body {
-  h1 {
-    color: red;
-  }
-}
+// WordPressコメント
+// WordPress設定用コメント
+//
+@use "setting/wp_comment";
+
+// 変数・ミックスイン
+//
+// 色などの変数読み込み
+//
+@use "setting/setting";
+@use "mixin/mixin";
+
+// base
+//
+// ベース系
+//
+@use './base';
+
+// plugins
+//
+// 外部CSS読み込み
+//
+@use './plugins';
+
+// theme
+//
+// テーマ
+//
+@use './theme';
+
+// layout
+//
+// ページのエリア分け
+//
+@use './layout';
+
+// module
+//
+// 汎用モジュール
+//
+@use './module';
+
+// state
+//
+// 状態管理
+//
+@use './state';
